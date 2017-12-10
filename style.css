@@ -5,17 +5,17 @@ html {
     color: rgba(0,0,0,0.87);
 }
 .main{
-	padding-top: 30px;
-	padding-left:  100px;
-	color : green ;
+    padding-top: 30px;
+    padding-left:  100px;
+    color : green ;
 }
 
 
 .main-heading{
-	background-image: url(img/bg1.jpg);
-	background-repeat: round;
-	background-attachment: fixed;
-	height : 20vh; width: 100%;
+    background-image: url(img/bg1.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    height : 40vh; width=100%;
 }
 
 .header-divs {
@@ -35,9 +35,56 @@ html {
 .footer-social-icons {
     position: absolute;
     margin-left: 3%;
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 .beta-home-social-list-side {
     margin-bottom: 6px;
+}
+@media only screen and (max-width: 550px){
+.beta-home-button {
+    font-size: 17px;
+    padding: 3px 21px;
+    margin-left: 40px;
+}
+}
+
+
+div{
+    display: block;
+}
+
+@media only screen and (max-width: 550px){
+.buttons {
+    margin-left: 40px;
+}
+}
+
+.first-line {
+    font-size: 10vw;
+    font-weight: 600;
+    
+}
+
+@media only screen and (max-width: 550px){}
+.first-line {
+    
+    font-size: 6vw;
+}
+}
+
+@media only screen and (max-width: 550px){}
+.second-line {
+    
+    font-size: 6vw;
+    color: black;
+}
+}
+
+.second-line {
+    
+    font-size: 10vw;
+    font-weight: 600;
+   
+    color: #f7df37;
 }
