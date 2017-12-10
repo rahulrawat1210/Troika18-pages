@@ -64,8 +64,8 @@ div{
 }
 
 .first-line {
-    font-size: 5vw;
-    font-weight: 600;
+    font-size: 6vw;
+    font-weight: 300;
     
 }
 
@@ -87,7 +87,7 @@ div{
 .second-line {
     
     font-size: 6vw;
-    font-weight: 600;
+    font-weight: 300;
    
     color: black;
 }
