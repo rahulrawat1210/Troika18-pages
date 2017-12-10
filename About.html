@@ -12,32 +12,33 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
       .navbar-brand img {
-            max-height: 200%;
-           height: 200%;
-           width: auto;
-           margin: 0 auto;
-           object-fit: contain; 
+          max-height: 200%;
+          height: 100%;
+          width: auto;
+          margin: 0 auto;
+          object-fit: contain; 
         }
-      .navbar {
-          background-color: beige;
-      }
       nav.navbar div.collapse ul.nav li a {
           color: maroon;
       }
   </style>
 </head>
-<body style="background-color: beige; font-family: Montserrat;">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
+<body  id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4" style="background-color: beige; font-family: Montserrat;">
+    <!--<nav class="navbar navbar-default">
+      <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://ieeedtu.com/" title="IEEE DTU" target="_blank"><img src="./img/logo.png"></a>
-          <a class="navbar-brand" href="http://dtu.ac.in/" title="Delhi Technological University" target="_blank"><img src="./img/logo1.jpg"></a>
+          <a class="navbar-brand" href="https://ieeedtu.com/" title="IEEE DTU" target="_blank">
+            <img src="./img/logo.png" alt="IEEE DTU" class="img-responsive">
+          </a>
+          <a class="navbar-brand" href="http://dtu.ac.in/" title="Delhi Technological University" target="_blank">
+            <img src="./img/logo1.jpg" alt="DTU" class="img-responsive">
+          </a>
           <p class="navbar-text" style="color: maroon;">TROIKA</p>
         </div>
         <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -52,10 +53,54 @@
               
         </div>
       </div>
+    </nav>-->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Celine Is Awesome</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
 
+
+    
   
-    <div style="height : 90vh; width:100%">
+    <div style="height : 90vh; width:100%; margin-top: 0px;">
       <div class="main-heading">
         <div class="main">
           <h2 class="first-line">Be a part of</h2>
@@ -71,35 +116,70 @@
         </div>
       </div>
 
-      <div class="footer-social-icons">
+      <div class="footer-social-icons" style="position: fixed;">
         <ul class="social-icons" style="float: left; padding: 0% 0% 1% 5%; list-style: none;">
           <li class="beta-home-social-list-side">
             <a href="https://www.facebook.com/TroikaIeeeDTU/" class="social-icon fb" target="_blank">
-              <i class="fa fa-facebook fa-2x"></i>
+              <i class="fa fa-fw fa-facebook fa-2x"></i>
             </a>
           </li>
           <li class="beta-home-social-list-side">
             <a href="https://twitter.com/dtu_ieee" class="social-icon twitter" target="_blank">
-              <i class="fa fa-twitter fa-2x"></i>
+              <i class="fa fa-fw fa-twitter fa-2x"></i>
             </a>
           </li>
           <li class="beta-home-social-list-side">
             <a href="https://www.youtube.com/user/ieeedtu" class="social-icon youtube" target="_blank">
-              <i class="fa fa-youtube-play fa-2x"></i>
+              <i class="fa fa-fw fa-youtube-play fa-2x"></i>
             </a>
           </li>
           <li class="beta-home-social-list-side">
             <a href="https://www.linkedin.com/company/7604169/" class="social-icon linkdin" target="_blank">
-              <i class="fa fa-linkedin fa-2x"></i>
+              <i class="fa fa-fw fa-linkedin fa-2x"></i>
             </a>
           </li>
           <li class="beta-home-social-list-side">
             <a href="https://instagram.com/ieee.dtu" class="social-icon instagram" target="_blank">
-              <i class="fa fa-instagram fa-2x"></i>
+              <i class="fa fa-fw fa-instagram fa-2x"></i>
             </a>
           </li>
         </ul>
       </div>
     </div>
+    <div style="width:100%; height: 90vh;" id="about">
+      <h1>About</h1>
+    </div>
+    <script>
+      $(function() {
+          $('a.page-scroll').bind('click', function(event) {
+              var $anchor = $(this);
+              $('html, body').stop().animate({
+                  scrollTop: $($anchor.attr('href')).offset().top
+              }, 1500, 'easeInOutExpo');
+              event.preventDefault();
+          });
+      });
+
+      // Highlight the top nav as scrolling occurs
+      $('body').scrollspy({
+          target: '.navbar-fixed-top'
+      })
+
+      // Closes the Responsive Menu on Menu Item Click
+      $('.navbar-collapse ul li a').click(function() {
+          $('.navbar-toggle:visible').click();
+      });
+    </script>
+
+        <!-- jQuery Version 1.11.0 -->
+        <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jquery-1.11.0.js"></script>
+        
+            <!-- Bootstrap Core JavaScript -->
+            <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/bootstrap.min.js"></script>
+        
+            <!-- Plugin JavaScript -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+            <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/classie.js"></script>
+            <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/cbpAnimatedHeader.js"></script>
 </body>
 </html>
