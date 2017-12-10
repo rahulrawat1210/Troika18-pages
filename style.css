@@ -46,6 +46,9 @@ html {
     font-size: 17px;
     padding: 3px 21px;
     margin-left: 40px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 }
 
@@ -61,7 +64,7 @@ div{
 }
 
 .first-line {
-    font-size: 10vw;
+    font-size: 5vw;
     font-weight: 600;
     
 }
@@ -83,22 +86,11 @@ div{
 
 .second-line {
     
-    font-size: 10vw;
+    font-size: 6vw;
     font-weight: 600;
    
-    color: #f7df37;
+    color: black;
 }
-/*
-.navbar-default {
-    background-color: beige;
-    height: 80px;
-  }
-  .navbar-default .navbar-nav > li > a,
-  .navbar-brand {
-    padding-top: 0;
-    padding-bottom: 0;
-    line-height: 80px;
-  }*/
 
 
 .navbar-default {
@@ -131,10 +123,10 @@ div{
     background-color: #fff;
 }
 
-/*.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fec503;
-}*/
+    background-color: maroon;
+}
 
 .navbar-default .nav li a {
     text-transform: uppercase;
@@ -185,7 +177,7 @@ div{
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: beige;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -199,15 +191,4 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-}
-
-a {
-    color: #1ee2e7;
-}
-
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: #17d0d5;
 }
