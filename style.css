@@ -56,7 +56,7 @@ div{
 
 @media only screen and (max-width: 550px){
 .buttons {
-    margin-left: 40px;
+    margin-left: 10px;
 }
 }
 
@@ -88,3 +88,4 @@ div{
    
     color: #f7df37;
 }
+
