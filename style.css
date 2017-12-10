@@ -18,3 +18,26 @@ html {
 	height : 20vh; width=100%;
 }
 
+.header-divs {
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.beta-home-button {
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 10px 64px;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 16px 2px transparent;
+}
+.footer-social-icons {
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.beta-home-social-list-side {
+    margin-bottom: 6px;
+}
